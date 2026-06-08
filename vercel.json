@@ -16,5 +16,10 @@
             "dest": "/api/index.php"
         }
     ],
-    "outputDirectory": "public"
+    "build": {
+        "env": {
+            "ENABLE_VC_BUILDREACH": "1"
+        }
+    },
+    "outputDirectory": "."
 }
